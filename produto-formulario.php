@@ -1,9 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-	<title></title>
-</head>
-<body>
+<?php include("cabecalho.php"); ?>
 <h1>Formulário de cadastro</h1>
 <form action="adiciona-produto.php">
 	Nome: <input type="text" name="nome"><br/>
@@ -11,6 +6,4 @@
 
 	<input type="submit" value="Cadastrar">
 </form>
-
-</body>
-</html>
+<?php include("rodape.php"); ?>

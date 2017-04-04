@@ -1,4 +1,4 @@
-<html>
+<?php include("cabecalho.php"); ?>
 <?php $nome="Egio"; ?>
 Loja do <?php echo $nome;?>
-</html>
+<?php include("rodape.php"); ?>
